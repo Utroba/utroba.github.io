@@ -438,6 +438,8 @@ body {
     background-position: center;
   }
   .main-header__services_text {
+    border: none;
+    background-color: #F8F8F8;
     margin-right: 8px;
     font-family: "TT Lakes";
     font-size: 16px;
