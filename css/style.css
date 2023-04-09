@@ -317,16 +317,6 @@ body {
     height: 32px;
     margin-right: 20px;
   }
-  .services__right_repair {
-    background-image: url(/img/repair.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .services__right_check-status {
-    background-image: url(/img/checkstatus.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
   .main {
     overflow-x: hidden;
   }

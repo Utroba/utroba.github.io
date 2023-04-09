@@ -346,17 +346,11 @@ body {
             // .services__right_repair
     
             &_repair {
-                background-image: url(/img/repair.svg);
-                background-repeat: no-repeat;
-                background-position: center;
             }
     
             // .services__right_check-status
     
             &_check-status {
-                background-image: url(/img/checkstatus.svg);
-                background-repeat: no-repeat;
-                background-position: center;
             }
         }
     }
