@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F8F8F8;
-    
+    overflow-x: hidden;
 }
 
 *, *::after, *::before{
@@ -346,7 +346,7 @@ body {
             // .services__right_repair
     
             &_repair {
-                background-image: url(/img/checkstatus.svg);
+                background-image: url(/img/repair.svg);
                 background-repeat: no-repeat;
                 background-position: center;
             }
@@ -495,9 +495,6 @@ body {
     .menu-logo::after{
         content: "";
         display: none;
-    }
-    
-    .btn-header {
     }
 
     .services {

@@ -87,6 +87,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F8F8F8;
+  overflow-x: hidden;
 }
 
 *, *::after, *::before {
@@ -317,7 +318,7 @@ body {
     margin-right: 20px;
   }
   .services__right_repair {
-    background-image: url(/img/checkstatus.svg);
+    background-image: url(/img/repair.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
