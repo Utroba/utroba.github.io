@@ -138,13 +138,13 @@ body {
 .services__left {
   display: none;
 }
-.services__repair {
+.services__right_repair {
   background-image: url(/img/repair.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 16px;
 }
-.services__check-status {
+.services__right_check-status {
   background-image: url(/img/checkstatus.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -290,6 +290,24 @@ body {
     display: flex;
     align-items: center;
   }
+  .services__left_call {
+    background-image: url(/img/call.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 16px;
+  }
+  .services__left_chat {
+    background-image: url(/img/chat.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 16px;
+  }
+  .services__left_profile {
+    background-image: url(/img/profile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+  }
   .services__left::after {
     content: "";
     align-items: center;
@@ -298,34 +316,15 @@ body {
     height: 32px;
     margin-right: 20px;
   }
-  .services__repair {
-    background-image: url(/img/repair.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 16px;
-  }
-  .services__check-status {
+  .services__right_repair {
     background-image: url(/img/checkstatus.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
-  .feedback__call {
-    background-image: url(/img/call.svg);
+  .services__right_check-status {
+    background-image: url(/img/checkstatus.svg);
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 16px;
-  }
-  .feedback__chat {
-    background-image: url(/img/chat.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 16px;
-  }
-  .feedback__profile {
-    background-image: url(/img/profile.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 20px;
   }
   .main {
     overflow-x: hidden;

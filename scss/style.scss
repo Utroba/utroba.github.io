@@ -61,53 +61,54 @@ body {
     background-color: #FF3E79;
     border-radius: 50%;
 }
+
 .services {
 
-		// .services__left
+    // .services__left
 
-		&__left {
-            display: none;
-		}
+    &__left {
+        display: none;
+        // .services__left_call
 
-		// .services__right
+        &_call {
+        }
 
-		&__right {
-		}
+        // .services__left_chat
 
-		// .services__repair
+        &_chat {
+        }
 
-		&__repair {
+        // .services__left_profile
+
+        &_profile {
+        }
+    }
+
+    // .services__right
+
+    &__right {
+
+        // .services__right_repair
+
+        &_repair {
             background-image: url(/img/repair.svg);
             background-repeat: no-repeat;
             background-position: center;
             margin-right: 16px;
-		}
+        }
 
-		// .services__check-status
+        // .services__right_check-status
 
-		&__check-status {
+        &_check-status {
             background-image: url(/img/checkstatus.svg);
             background-repeat: no-repeat;
             background-position: center;
-		}
+        }
+    }
 }
-.feedback {
 
-		// .feedback__call
 
-		&__call {
-		}
 
-		// .feedback__chat
-
-		&__chat {
-		}
-
-		// .feedback__profile
-
-		&__profile {
-		}
-}
 
 .main{
     overflow-x: hidden;
@@ -289,75 +290,75 @@ body {
         display: none;
     }
     
+    
+
+
     .services {
         display: flex;
         align-items: center;
-            // .services__left
+        // .services__left
     
-            &__left {
-                display: flex;
-                align-items: center;
-            }
-
-            &__left::after {
-                content: "";
-                align-items: center;
-                border: 1px solid #EAEAEA;
-                border-radius: 1px;
-                height: 32px;
-                margin-right: 20px;
-            }
+        &__left {
+            display: flex;
+            align-items: center;
+            // .services__left_call
     
-            // .services__right
-    
-            &__right {
-            }
-    
-            // .services__repair
-    
-            &__repair {
-                background-image: url(/img/repair.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                margin-right: 16px;
-            }
-    
-            // .services__check-status
-    
-            &__check-status {
-                background-image: url(/img/checkstatus.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-    }
-    .feedback {
-    
-            // .feedback__call
-    
-            &__call {
+            &_call {
                 background-image: url(/img/call.svg);
                 background-repeat: no-repeat;
                 background-position: center;
                 margin-right: 16px;
             }
     
-            // .feedback__chat
+            // .services__left_chat
     
-            &__chat {
+            &_chat {
                 background-image: url(/img/chat.svg);
                 background-repeat: no-repeat;
                 background-position: center;
                 margin-right: 16px;
             }
     
-            // .feedback__profile
+            // .services__left_profile
     
-            &__profile {
+            &_profile {
                 background-image: url(/img/profile.svg);
                 background-repeat: no-repeat;
                 background-position: center;
                 margin-right: 20px;
             }
+        }
+    
+
+        &__left::after {
+            content: "";
+            align-items: center;
+            border: 1px solid #EAEAEA;
+            border-radius: 1px;
+            height: 32px;
+            margin-right: 20px;
+        }
+
+        // .services__right
+    
+        &__right {
+    
+            // .services__right_repair
+    
+            &_repair {
+                background-image: url(/img/checkstatus.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+    
+            // .services__right_check-status
+    
+            &_check-status {
+                background-image: url(/img/checkstatus.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
     }
     
     .main{
