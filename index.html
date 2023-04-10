@@ -1,39 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="/css/style.css">
-    <!-- <link rel="stylesheet" href="/fonts/fonts.css"> -->
     <title>CPS Services</title>
 </head>
 <body>
     
         <header class="header">
-            <div class="container">
+            <div class="header__container container">
                 <div class="header__body">
-                    <div class="menu-logo">
-                        <button type="button" class="menu-logo__menu btn-header">
-                        </button>
-                        <a href="#" class="menu-logo__logo">
-                            <img src="/img/logo.svg" alt="Логотип">
-                        </a>
-                    </div>
-                    <div class="services">
-                        <div class="services__left">
-                            <button type="button" class="services__left_call btn-header">
-                            </button>
-                            <button type="button" class="services__left_chat btn-header">
-                            </button>
-                            <button type="button" class="services__left_profile btn-header">
+                    <div class="header__menu-logo">
+                        <div class="header__menu-nav">
+                            <button type="button" class="header__menu--burger btn-header">
                             </button>
                         </div>
-                        <div class="services__right">
-                            <button type="button" class="services__right_repair btn-header">
-                            </button>
-                            <button type="button" class="services__right_check-status btn-header">
-                            </button>
+                        <div class="header__logo">
+                            <a href="#" class="header__logo-link logo-link">
+                                <img src="img/logo.svg" alt="Логотип компании CPS">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__services">
+                        <div class="header__services-feedback">
+                                <button type="button" class="header__services-feedback--call btn-header">
+                                </button>
+                                <button type="button" class="header__services-feedback--chat btn-header">
+                                </button>
+                                <button type="button" class="header__services-feedback--profile btn-header">
+                                </button>
+                        </div>
+                        <div class="header__services-repair">
+                                <button type="button" class="header__services-repair--repair btn-header">
+                                </button>
+                                <button type="button" class="header__services-repair--check-status btn-header">
+                                </button>
                         </div>
                     </div>
                 </div>
@@ -41,42 +45,42 @@
         </header>
 
         <main class="main">
-            <div class="container">
-                <div class="main-header">
-                    <h1 class="main-header__title">
+            <div class="main__container container">
+                <div class="main__header">
+                    <h1 class="main__title title">
                         Услуги и сервисы
                     </h1>
-                    <div class="main-header__services">
-                        <button class="main-header__services_text">Оставить заявку</button>
-                        <button type="button" class="main-header__services_repair btn-header">
+                    <div class="main__services">
+                        <button class="main__repair--text main__btn-text">Оставить заявку</button>
+                        <button type="button" class="main__repair btn-header">
                         </button>
-                        <button class="main-header__services_text">Статус ремонта</button>
-                        <button type="button" class="main-header__services_check-status btn-header">
+                        <button class="main__check-status--text main__btn-text">Статус ремонта</button>
+                        <button type="button" class="main__check-status btn-header">
                         </button>
                     </div>
                 </div>
-                <div class="main-services">
-                    <div class="main-services__list">
-                        <button type="button" class="main-services__btn services-btn">Ремонтируемые бренды</button>
-                        <button type="button" class="main-services__btn services-btn">Ремонтируемые устройства</button>
-                        <button type="button" class="main-services__btn services-btn">Цены на услуги</button>
-                        <button type="button" class="main-services__btn services-btn">Адреса сервисных центров</button>
-                        <button type="button" class="main-services__btn services-btn">Специальные цены</button>
-                        <button type="button" class="main-services__btn services-btn">Отзывы</button>
+                <div class="main__services-slider">
+                    <div class="main__services-list">
+                        <button type="button" class="main__services-btn services-btn">Ремонтируемые бренды</button>
+                        <button type="button" class="main__services-btn services-btn">Ремонтируемые устройства</button>
+                        <button type="button" class="main__services-btn services-btn">Цены на услуги</button>
+                        <button type="button" class="main__services-btn services-btn">Адреса сервисных центров</button>
+                        <button type="button" class="main__services-btn services-btn">Специальные цены</button>
+                        <button type="button" class="main__services-btn services-btn">Отзывы</button>
                     </div>
                 </div>
-                <div class="main-description">
-                    <div class="main-description__text-btn">
-                        <p class="main-description__description">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                <div class="main__description">
+                    <div class="main__description-text-btn">
+                        <p class="main__description-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
                         
                         Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
                         </p>
-                         <button type="button" class="main-description__read-more">Читать далее</button>
+                         <button type="button" class="main__description-readmore-btn">Читать далее</button>
                     </div>
-                    <picture class="main-description__image">
-                        <source  srcset="/img/1120pximage.png" media="(min-width: 1120px)" alt="Логотип и часы работы">
-                        <source  srcset="/img/768pximage.png" media="(min-width: 768px)" alt="Логотип и часы работы">
-                        <img  src="/img/320pximage.png" alt="Логотип и часы работы">
+                    <picture class="main__description-image">
+                        <source  srcset="img/1120pximage.png" media="(min-width: 1120px)" alt="Логотип и часы работы">
+                        <source  srcset="img/768pximage.png" media="(min-width: 768px)" alt="Логотип и часы работы">
+                        <img  src="img/320pximage.png" alt="Логотип и часы работы">
                     </picture>
                 </div>
             </div>
