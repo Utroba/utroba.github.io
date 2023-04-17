@@ -185,7 +185,7 @@ body {
 .main__services-slider::-webkit-scrollbar {
   display: none;
 }
-.main__services-slider::after {
+.main__services-slider::before {
   content: "";
   position: absolute;
   background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
@@ -307,15 +307,7 @@ body {
     margin-right: 20px;
   }
   .header__services-repair--repair {
-    background-image: url(/img/repair.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     margin-right: 16px;
-  }
-  .header__services-repair--check-status {
-    background-image: url(/img/checkstatus.svg);
-    background-repeat: no-repeat;
-    background-position: center;
   }
   .main__services-slider {
     margin-bottom: 32px;
