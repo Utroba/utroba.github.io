@@ -21,7 +21,7 @@ brandBtn.addEventListener('click', function () {
     if (!showAll) {
         brandHeight.style.height = 'auto';
         brandBtn.classList.add('brand-container__btn-close');
-        brandBtn.textContent = 'Скрыть всё'
+        brandBtn.textContent = 'Скрыть'
     } else {
         brandHeight.style.height = '160px';
         brandBtn.classList.remove('brand-container__btn-close');

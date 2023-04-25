@@ -233,6 +233,13 @@ body {
   .show-more {
     border: none;
     display: block;
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
   }
   .swiper {
     display: none;
@@ -283,6 +290,12 @@ body {
   .brand-container__btn {
     padding-left: 32px;
     background-image: url(/repairbrand-img/expandbottom.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  .brand-container__btn-close {
+    padding-left: 32px;
+    background-image: url(../repairbrand-img/expandtop.svg);
     background-position: left;
     background-repeat: no-repeat;
   }
